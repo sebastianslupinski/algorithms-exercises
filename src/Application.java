@@ -24,7 +24,7 @@ public class Application {
 //        System.out.println(confirmEnding("jajajakberety","ety" ));
 //        System.out.println(repeatString("dufssdsds", 7));
 //        System.out.println(truncateString("ale jajca, jak berety normalnie", 3));
-        int[] arrayToTest = {5,9,4,1,4,5,6,7,8,4,3,5,6,7};
+        int[] arrayToTest = {9,4,6,2,7,1,3,5};
 //        chunkArray(arrayToTest,5 );
 //        slasherFlick(arrayToTest,3 );
 //        ArrayList<Integer> listToTest = new ArrayList<>(Arrays.asList(5,6,8,3,2,7,9,1,4,6));
@@ -40,6 +40,7 @@ public class Application {
 //        System.out.println(recursiveAdding(arrayToTest,0 ));
 //        System.out.println(adding(arrayToTest));
         QuickSort.sort(arrayToTest);
+//        MergeSort.mergeSort(arrayToTest);
         for(int number : arrayToTest){
             System.out.println(number);
         }
