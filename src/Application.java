@@ -39,8 +39,8 @@ public class Application {
 //        System.out.println(recursive(4));
 //        System.out.println(recursiveAdding(arrayToTest,0 ));
 //        System.out.println(adding(arrayToTest));
-        QuickSort.sort(arrayToTest);
-//        MergeSort.mergeSort(arrayToTest);
+//        QuickSort.sort(arrayToTest);
+        MergeSort.mergeSort(arrayToTest);
         for(int number : arrayToTest){
             System.out.println(number);
         }
